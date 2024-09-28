@@ -1,1 +1,5 @@
 Add documents with descriptions of interactive GUI tests here
+
+Build with Docker LSST with 
+> docker run --rm -v ${PWD}:/build -w /build lsstsqre/lsst-texmf:latest sh -c 'make clean; make'
+
